@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PaymentNOrderSystem - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\LOOTPIZ\LOCALS~1\Temp\RSP217.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/PaymentNOrderSystem.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Box\Source\parkcom\8ÁÖÂ÷\PaymentNOrderSystem\Interface.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LOOTPIZ\LOCALS~1\Temp\RSP217.tmp" 
+Creating temporary file "C:\DOCUME~1\LOOTPIZ\LOCALS~1\Temp\RSP218.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/PaymentNOrderSystem.pdb" /debug /machine:I386 /out:"Debug/PaymentNOrderSystem.exe" /pdbtype:sept 
+".\Debug\BillManagement.obj"
+".\Debug\Date.obj"
+".\Debug\Detail.obj"
+".\Debug\Dish.obj"
+".\Debug\Interface.obj"
+".\Debug\MenuInformation.obj"
+".\Debug\Order.obj"
+".\Debug\OrderSheet.obj"
+".\Debug\OrderSheetBinder.obj"
+".\Debug\PayCash.obj"
+".\Debug\PayCharge.obj"
+".\Debug\Payment.obj"
+".\Debug\Table.obj"
+".\Debug\TableInformation.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\LOOTPIZ\LOCALS~1\Temp\RSP218.tmp"
+<h3>Output Window</h3>
+Compiling...
+Interface.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\LOOTPIZ\LOCALS~1\Temp\RSP219.tmp" with contents
+[
+/nologo /o"Debug/PaymentNOrderSystem.bsc" 
+".\Debug\BillManagement.sbr"
+".\Debug\Date.sbr"
+".\Debug\Detail.sbr"
+".\Debug\Dish.sbr"
+".\Debug\Interface.sbr"
+".\Debug\MenuInformation.sbr"
+".\Debug\Order.sbr"
+".\Debug\OrderSheet.sbr"
+".\Debug\OrderSheetBinder.sbr"
+".\Debug\PayCash.sbr"
+".\Debug\PayCharge.sbr"
+".\Debug\Payment.sbr"
+".\Debug\Table.sbr"
+".\Debug\TableInformation.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\LOOTPIZ\LOCALS~1\Temp\RSP219.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+PaymentNOrderSystem.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
